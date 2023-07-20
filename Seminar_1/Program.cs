@@ -89,3 +89,16 @@
 //     Console.WriteLine(numberNeg);
 //     numberNeg = numberNeg + 1;
 // }
+// Отрицательные числа нельзя, если нужно, то весь цикл заливаем в условие if (number > 0) {цикл} else {сообщение об ошибке}.
+
+
+// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+// 	456 -> 6
+// 	782 -> 2
+// 	918 -> 8
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int result7 = number%10; 
+Console.WriteLine(result7);
