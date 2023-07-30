@@ -30,24 +30,25 @@
 // Второй способ
 
 // Console.WriteLine("Введите пятизначное число: ");
-// int  num = Convert.ToInt32(Console.ReadLine());
+// string  num = Console.ReadLine();
 
-// string numString = Convert.ToString(num);
-// int size = numString.Length;
+// int size = num.Length;
 
-// if (numString[0] == numString[4] && numString[1] == numString[3])
+// if (size == 5)
 // {
-//     Console.WriteLine("Да");
+//     if (num[0] == num[4] && num[1] == num[3])
+//     {
+//         Console.WriteLine("Да");
+//     }
+//     else 
+//     {
+//         Console.WriteLine("Нет");   
+//     }
 // }
-// else if (size < 5 || size > 5)
+// else 
 // {
 //     Console.WriteLine("Введите пятизначное число!"); 
 // }
-// else
-// {
-//     Console.WriteLine("Нет");
-// }
-
 
 
 
