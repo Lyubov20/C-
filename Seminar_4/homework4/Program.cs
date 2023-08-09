@@ -58,7 +58,7 @@
 //     for (int i = 0; i < array.Length; i++)
 //     {
 //         array[i] = new Random().Next(0,500);
-//         Console.Write(array[i]+" ");
+//         Console.Write(array[i]+ " ");
 //     }
 // }
 
