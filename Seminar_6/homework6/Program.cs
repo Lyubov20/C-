@@ -23,7 +23,57 @@
 // }
 // Console.Write($"Количество чисел, больших нуля, равно {count}");
 
+// 2 способ (не знаем, сколько чисел и с массивом)
 
+// Console.Write("Введите числа через пробел: ");
+
+// int[] ConvertStringToArray(string numbers)
+// {
+//     int amount = 1;
+//     for (int i = 0; i < numbers.Length; i++)
+//     {
+//         if (numbers[i] == ' ')
+//         {
+//             amount+=1;
+//         }
+//     }
+
+//     int[] num = new int [amount];
+    
+//     int count = 0;
+//     for (int i = 0; i < numbers.Length; i++)
+//     {
+//         string res = "";
+
+//         while (numbers[i] != ' ')
+//         {
+//         if(i < numbers.Length - 1)
+//         {
+//             res += numbers[i].ToString();
+//             i++;
+//         }
+//         else
+//         {
+//             res += numbers[i].ToString();
+//             break;
+//         }
+//         }
+//         num[count] = Convert.ToInt32(res);
+//         count++;
+//     }
+//     return num;
+// }
+
+// int[] num = ConvertStringToArray(Console.ReadLine());
+// int sum = 0;
+// for (int i = 0; i < num.Length; i++)
+// {
+//     if (num[i] > 0)
+//     {
+//         sum++;
+//     }
+// }
+// Console.WriteLine($"\nКоличество элементов, больших нуля равно {sum}");
 
 // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями 
 // y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
